@@ -6,6 +6,10 @@
   "dependencies": {
     "normalize-scss": "^7.0.1"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "devDependencies": {
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
@@ -30,5 +34,8 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
